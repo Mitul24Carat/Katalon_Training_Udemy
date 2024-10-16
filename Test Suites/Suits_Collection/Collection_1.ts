@@ -5,27 +5,17 @@
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <profileName>STTL_Environment</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suits/ALL_Cases</testSuiteEntity>
-      </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suits/ALL_Cases</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Data_Driven_Excel_Suite/Data_Driven_Excel_Suite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

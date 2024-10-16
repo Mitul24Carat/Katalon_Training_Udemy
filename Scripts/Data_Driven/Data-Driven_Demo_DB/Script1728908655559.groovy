@@ -23,13 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
 
-WebUI.setText(findTestObject('Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_db77ac'), 
+WebUI.setText(findTestObject('Data_Driven_Objects/input_standard_userlocked_out_userproblem_userperformance_glitch_user_user-name'), 
     Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_3423e9'), 
+sleep(1000)
+
+WebUI.setEncryptedText(findTestObject('Data_Driven_Objects/input_standard_userlocked_out_userproblem_userperformance_glitch_user_password'), 
     Password)
 
-WebUI.click(findTestObject('Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_0dff71'))
+WebUI.click(findTestObject('Data_Driven_Objects/input_standard_userlocked_out_userproblem_userperformance_glitch_user_login-button'))
 
 WebUI.click(findTestObject('Object Repository/Data_Driven_Objects/button_Open Menu'))
 

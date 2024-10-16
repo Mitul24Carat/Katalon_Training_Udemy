@@ -25,6 +25,15 @@
          </iterationEntity>
          <testDataId>Data Files/SauceDemo_Excel/uName_pWD</testDataId>
       </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>427b8587-6503-4edb-b4a9-5f831be30782</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SauceDemo_Excel/uName_pWD</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>bf7e6d7d-f73a-4ebe-94b1-a45a7beff777</testDataLinkId>

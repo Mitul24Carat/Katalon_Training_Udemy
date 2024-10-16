@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/Data_Driven/Data-Driven_Demo_DB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>27894ff0-6f95-4ab1-b107-6089877f38f3</id>
+         <id>b23371d4-68fa-49a0-a8cf-7ae8c6cb0682</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,13 +27,13 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>27894ff0-6f95-4ab1-b107-6089877f38f3</testDataLinkId>
+         <testDataLinkId>b23371d4-68fa-49a0-a8cf-7ae8c6cb0682</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Username</value>
          <variableId>73fef575-d612-46c3-830c-9a1c64886d4b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>27894ff0-6f95-4ab1-b107-6089877f38f3</testDataLinkId>
+         <testDataLinkId>b23371d4-68fa-49a0-a8cf-7ae8c6cb0682</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>c615e587-1245-4dde-a6a1-9d6e5d32c323</variableId>
