@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_From_Excel</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/SauceDemo_Excel/uName_pWD</source-url>
+   </source-info>
+   <taken-date>2024-10-14T18:09:16.303+05:30</taken-date>
+   <column-names>
+      <column-name>Username</column-name>
+      <column-name>Password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "standard_user",
+      "checked": true
+    },
+    {
+      "value": "qcu24s4901FyWDTwXGr6XA\u003d\u003d",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Admin",
+      "checked": true
+    },
+    {
+      "value": "hUKwJTbofgPU9eVlw/CnDQ\u003d\u003d",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Script manually to Run a Test Case</description>
+   <name>Script_Demo_Test_Case</name>
+   <tag>Scripting</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b506c957-e911-4c22-8ced-ffe11b5b01bd</testCaseGuid>
+</TestCaseEntity>

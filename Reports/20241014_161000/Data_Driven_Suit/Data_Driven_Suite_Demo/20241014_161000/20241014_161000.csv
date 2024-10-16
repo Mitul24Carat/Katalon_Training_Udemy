@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_Driven_Suite_Demo,Chrome 129.0.0.0,,,14-10-2024 16:10:07,14-10-2024 16:10:21,13.301s,FAILED
+,,,,,,,
+Test Cases/Data_Driven/Data-Driven_Demo,Chrome 129.0.0.0,,,14-10-2024 16:10:08,14-10-2024 16:10:17,8.981s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,14-10-2024 16:10:08,14-10-2024 16:10:11,3.456s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,14-10-2024 16:10:11,14-10-2024 16:10:12,0.255s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/"")",Chrome 129.0.0.0,,,14-10-2024 16:10:12,14-10-2024 16:10:12,0.450s,PASSED
+"setText(findTestObject(""Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_db77ac""), Username)",Chrome 129.0.0.0,,,14-10-2024 16:10:12,14-10-2024 16:10:13,0.892s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_3423e9""), Password)",Chrome 129.0.0.0,,,14-10-2024 16:10:13,14-10-2024 16:10:13,0.416s,PASSED
+"click(findTestObject(""Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 129.0.0.0,,,14-10-2024 16:10:13,14-10-2024 16:10:14,1.161s,PASSED
+"click(findTestObject(""Object Repository/Data_Driven_Objects/button_Open Menu""))",Chrome 129.0.0.0,,,14-10-2024 16:10:14,14-10-2024 16:10:15,0.389s,PASSED
+"click(findTestObject(""Object Repository/Data_Driven_Objects/a_Logout""))",Chrome 129.0.0.0,,,14-10-2024 16:10:15,14-10-2024 16:10:15,0.397s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,14-10-2024 16:10:15,14-10-2024 16:10:16,1.250s,PASSED
+,,,,,,,
+Test Cases/Data_Driven/Data-Driven_Demo,Chrome 129.0.0.0,,,14-10-2024 16:10:17,14-10-2024 16:10:21,4.055s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,14-10-2024 16:10:17,14-10-2024 16:10:19,2.505s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,14-10-2024 16:10:19,14-10-2024 16:10:19,0.045s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/"")",Chrome 129.0.0.0,,,14-10-2024 16:10:19,14-10-2024 16:10:20,0.456s,PASSED
+"setText(findTestObject(""Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_db77ac""), Username)",Chrome 129.0.0.0,,,14-10-2024 16:10:20,14-10-2024 16:10:20,0.840s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Data_Driven_Objects/input_standard_userlocked_out_userproblem_u_3423e9""), Password)",Chrome 129.0.0.0,,,14-10-2024 16:10:20,14-10-2024 16:10:21,0.169s,FAILED

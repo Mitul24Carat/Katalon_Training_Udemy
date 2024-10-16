@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ALL_Cases,Chrome 129.0.0.0,,,15-10-2024 10:43:18,15-10-2024 10:43:56,37.626s,PASSED
+,,,,,,,
+Test Cases/Record_Mode_Cases/Record_Demo_Test_Case,Chrome 129.0.0.0,Use Spy Web functionality to get Objects,Spy Web,15-10-2024 10:43:19,15-10-2024 10:43:36,17.120s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,15-10-2024 10:43:19,15-10-2024 10:43:23,3.847s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,15-10-2024 10:43:23,15-10-2024 10:43:23,0.165s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,15-10-2024 10:43:23,15-10-2024 10:43:24,1.448s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/a_Make Appointment""))",Chrome 129.0.0.0,,,15-10-2024 10:43:24,15-10-2024 10:43:27,2.499s,PASSED
+"setText(findTestObject(""Object Repository/Record_Mode_Objects/input_Username_username""), ""John Doe"")",Chrome 129.0.0.0,,,15-10-2024 10:43:27,15-10-2024 10:43:27,0.656s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record_Mode_Objects/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 129.0.0.0,,,15-10-2024 10:43:27,15-10-2024 10:43:28,0.413s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/button_Login""))",Chrome 129.0.0.0,,,15-10-2024 10:43:28,15-10-2024 10:43:29,0.785s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Record_Mode_Objects/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 129.0.0.0,,,15-10-2024 10:43:29,15-10-2024 10:43:29,0.905s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/input_Apply for hospital readmission_hospit_63901f""))",Chrome 129.0.0.0,,,15-10-2024 10:43:29,15-10-2024 10:43:30,0.303s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/input_None_programs""))",Chrome 129.0.0.0,,,15-10-2024 10:43:30,15-10-2024 10:43:30,0.292s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/div_Visit Date (Required)_input-group-addon""))",Chrome 129.0.0.0,,,15-10-2024 10:43:30,15-10-2024 10:43:30,0.310s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/th_""))",Chrome 129.0.0.0,,,15-10-2024 10:43:30,15-10-2024 10:43:31,0.530s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/td_24""))",Chrome 129.0.0.0,,,15-10-2024 10:43:31,15-10-2024 10:43:31,0.534s,PASSED
+"setText(findTestObject(""Object Repository/Record_Mode_Objects/textarea_Comment_comment""), ""Jida Intezaar si, Aaj Rabba Wohi Din Aaya hai"")",Chrome 129.0.0.0,,,15-10-2024 10:43:31,15-10-2024 10:43:32,0.824s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/button_Book Appointment""))",Chrome 129.0.0.0,,,15-10-2024 10:43:32,15-10-2024 10:43:33,0.562s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Record_Mode_Objects/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 129.0.0.0,,,15-10-2024 10:43:33,15-10-2024 10:43:33,0.291s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Record_Mode_Objects/p_Jida Intezaar si, Aaj Rabba Wohi Din Aaya hai""), ""Jida Intezaar si, Aaj Rabba Wohi Din Aaya hai"")",Chrome 129.0.0.0,,,15-10-2024 10:43:33,15-10-2024 10:43:33,0.282s,PASSED
+"click(findTestObject(""Object Repository/Record_Mode_Objects/a_Go to Homepage""))",Chrome 129.0.0.0,,,15-10-2024 10:43:33,15-10-2024 10:43:34,0.581s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,15-10-2024 10:43:34,15-10-2024 10:43:36,1.715s,PASSED
+,,,,,,,
+Test Cases/Script_Mode_Cases/Script_Demo_Test_Case,Chrome 129.0.0.0,Script manually to Run a Test Case,Scripting,15-10-2024 10:43:36,15-10-2024 10:43:56,20.298s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,15-10-2024 10:43:36,15-10-2024 10:43:38,2.251s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,15-10-2024 10:43:38,15-10-2024 10:43:38,0.042s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 129.0.0.0,,,15-10-2024 10:43:38,15-10-2024 10:43:39,0.786s,PASSED
+"verifyTextPresent(""Login"", false)",Chrome 129.0.0.0,,,15-10-2024 10:43:39,15-10-2024 10:43:42,2.965s,PASSED
+delay(2),Chrome 129.0.0.0,,,15-10-2024 10:43:42,15-10-2024 10:43:44,2.023s,PASSED
+"setText(findTestObject(""Object Repository/Manual_Script_Mode_Objects/input_Username_username""), ""Admin"")",Chrome 129.0.0.0,,,15-10-2024 10:43:44,15-10-2024 10:43:44,0.598s,PASSED
+delay(2),Chrome 129.0.0.0,,,15-10-2024 10:43:44,15-10-2024 10:43:46,2.012s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Manual_Script_Mode_Objects/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 129.0.0.0,,,15-10-2024 10:43:46,15-10-2024 10:43:47,0.370s,PASSED
+delay(2),Chrome 129.0.0.0,,,15-10-2024 10:43:47,15-10-2024 10:43:49,2.007s,PASSED
+"click(findTestObject(""Object Repository/Manual_Script_Mode_Objects/button_Login""))",Chrome 129.0.0.0,,,15-10-2024 10:43:49,15-10-2024 10:43:50,1.638s,PASSED
+delay(2),Chrome 129.0.0.0,,,15-10-2024 10:43:50,15-10-2024 10:43:52,2.004s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Chrome 129.0.0.0,,,15-10-2024 10:43:52,15-10-2024 10:43:53,0.333s,PASSED
+delay(2),Chrome 129.0.0.0,,,15-10-2024 10:43:53,15-10-2024 10:43:55,2.007s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,15-10-2024 10:43:55,15-10-2024 10:43:56,1.197s,PASSED

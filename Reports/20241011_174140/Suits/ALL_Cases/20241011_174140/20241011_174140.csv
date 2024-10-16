@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ALL_Cases,Chrome 129.0.0.0,,,11-10-2024 17:41:48,11-10-2024 17:42:20,32.519s,PASSED
+,,,,,,,
+Test Cases/Manual_Mode_Cases/Manual_Demo_Test_Case,Chrome 129.0.0.0,Add Manually Test Case Steps using SPY WEB,Spy Web,11-10-2024 17:41:48,11-10-2024 17:42:03,15.200s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,11-10-2024 17:41:48,11-10-2024 17:41:52,3.670s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,11-10-2024 17:41:52,11-10-2024 17:41:52,0.104s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 129.0.0.0,,,11-10-2024 17:41:52,11-10-2024 17:41:55,3.656s,PASSED
+"verifyTextPresent(""Login"", false)",Chrome 129.0.0.0,,,11-10-2024 17:41:55,11-10-2024 17:41:57,1.122s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 129.0.0.0,,,11-10-2024 17:41:57,11-10-2024 17:41:57,0.791s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 129.0.0.0,,,11-10-2024 17:41:57,11-10-2024 17:41:58,0.464s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Chrome 129.0.0.0,,,11-10-2024 17:41:58,11-10-2024 17:41:59,1.561s,PASSED
+delay(2),Chrome 129.0.0.0,,,11-10-2024 17:41:59,11-10-2024 17:42:01,2.043s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Chrome 129.0.0.0,,,11-10-2024 17:42:01,11-10-2024 17:42:02,0.291s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,11-10-2024 17:42:02,11-10-2024 17:42:03,1.250s,PASSED
+,,,,,,,
+Test Cases/Record_Mode_Cases/Record_Demo_Test_Case,Chrome 129.0.0.0,Use Spy Web functionality to get Objects,Spy Web,11-10-2024 17:42:03,11-10-2024 17:42:20,17.111s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,11-10-2024 17:42:03,11-10-2024 17:42:06,2.367s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,11-10-2024 17:42:06,11-10-2024 17:42:06,0.074s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 129.0.0.0,,,11-10-2024 17:42:06,11-10-2024 17:42:09,3.814s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 129.0.0.0,,,11-10-2024 17:42:09,11-10-2024 17:42:10,0.884s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 129.0.0.0,,,11-10-2024 17:42:10,11-10-2024 17:42:11,0.763s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 129.0.0.0,,,11-10-2024 17:42:11,11-10-2024 17:42:12,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 129.0.0.0,,,11-10-2024 17:42:12,11-10-2024 17:42:13,0.934s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 129.0.0.0,,,11-10-2024 17:42:13,11-10-2024 17:42:14,1.152s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 129.0.0.0,,,11-10-2024 17:42:14,11-10-2024 17:42:14,0.354s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_None_programs""))",Chrome 129.0.0.0,,,11-10-2024 17:42:14,11-10-2024 17:42:14,0.323s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Chrome 129.0.0.0,,,11-10-2024 17:42:14,11-10-2024 17:42:15,0.383s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/th_""))",Chrome 129.0.0.0,,,11-10-2024 17:42:15,11-10-2024 17:42:15,0.565s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_24""))",Chrome 129.0.0.0,,,11-10-2024 17:42:15,11-10-2024 17:42:16,0.524s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Jida Intezaar si, Aaj Rabba Wohi Din Aaya hai"")",Chrome 129.0.0.0,,,11-10-2024 17:42:16,11-10-2024 17:42:17,0.903s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 129.0.0.0,,,11-10-2024 17:42:17,11-10-2024 17:42:17,0.656s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 129.0.0.0,,,11-10-2024 17:42:17,11-10-2024 17:42:18,0.493s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Jida Intezaar si, Aaj Rabba Wohi Din Aaya hai""), ""Jida Intezaar si, Aaj Rabba Wohi Din Aaya hai"")",Chrome 129.0.0.0,,,11-10-2024 17:42:18,11-10-2024 17:42:18,0.289s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 129.0.0.0,,,11-10-2024 17:42:18,11-10-2024 17:42:19,0.661s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,11-10-2024 17:42:19,11-10-2024 17:42:20,1.295s,PASSED

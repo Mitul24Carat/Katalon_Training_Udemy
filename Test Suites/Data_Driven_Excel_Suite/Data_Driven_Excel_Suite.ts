@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Data_Driven_Excel_Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3f7b498c-3a45-42a3-ad30-60963734bf69</testSuiteGuid>
+   <testCaseLink>
+      <guid>a60e1ef9-a982-473d-b403-e934d105a19e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data_Driven/Data-Driven_Demo_Excel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bf7e6d7d-f73a-4ebe-94b1-a45a7beff777</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SauceDemo_Excel/uName_pWD</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>bf7e6d7d-f73a-4ebe-94b1-a45a7beff777</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>4b10d217-81af-41d9-8a30-3199d232bf93</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bf7e6d7d-f73a-4ebe-94b1-a45a7beff777</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>7eac8bcd-a66c-4438-b2c7-7b3e18db10f2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

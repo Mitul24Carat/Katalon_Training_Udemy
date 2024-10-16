@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Manually Test Case Steps using SPY WEB</description>
+   <name>Manual_Demo_Test_Case</name>
+   <tag>Spy Web</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f35b564-38f9-4b1d-ac30-dbe013907f8f</testCaseGuid>
+</TestCaseEntity>

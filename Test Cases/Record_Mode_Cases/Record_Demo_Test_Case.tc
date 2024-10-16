@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Use Spy Web functionality to get Objects</description>
+   <name>Record_Demo_Test_Case</name>
+   <tag>Spy Web</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23970806-ed6b-43d7-b8ab-f55618606114</testCaseGuid>
+</TestCaseEntity>
