@@ -9,7 +9,7 @@ class Login_Step {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	
+
 	@Given("User is on Login Page")
 	def given_Login_Page() {
 		println('\n' + Given)
@@ -19,7 +19,7 @@ class Login_Step {
 	def when_Enters_Data() {
 		println('\n' + When)
 	}
-	
+
 	@And("Clicks on Login Button")
 	def and_Click_On_Button() {
 		println('\n' + And)
