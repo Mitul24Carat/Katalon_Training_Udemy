@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BrowserStack_Remote_Integration</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>095c0fd9-14fc-4115-9e34-92c57386e5c1</testCaseGuid>
+</TestCaseEntity>
