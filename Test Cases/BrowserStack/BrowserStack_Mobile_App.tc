@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BrowserStack_Mobile_App</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a9ae79c-d627-4e9d-ba93-9b916b2b0b77</testCaseGuid>
+</TestCaseEntity>
